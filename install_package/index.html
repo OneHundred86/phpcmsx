@@ -1,0 +1,241 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=7" />
+<title>PHPCMS演示站</title>
+<meta name="keywords" content="PHPCMS演示站">
+<meta name="description" content="PHPCMS演示站">
+<link href="http://my.phpcms:8080/statics/css/reset.css" rel="stylesheet" type="text/css" />
+<link href="http://my.phpcms:8080/statics/css/default_blue.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://my.phpcms:8080/statics/js/jquery.min.js"></script>
+<script type="text/javascript" src="http://my.phpcms:8080/statics/js/jquery.sgallery.js"></script>
+<script type="text/javascript" src="http://my.phpcms:8080/statics/js/search_common.js"></script>
+</head>
+<body>
+<div class="body-top">
+    <div class="content">
+        		<div id="announ">
+                 <ul>
+                                  </ul>
+            </div>
+     	 <script type="text/javascript">
+$(function(){
+	startmarquee('announ',22,1,500,3000);
+})
+</script>
+            <div class="login lh24 blue"><a href="http://my.phpcms:8080/index.php?m=content&c=rss&siteid=1" class="rss ib">rss</a><span class="rt"><script type="text/javascript">document.write('<iframe src="http://my.phpcms:8080/index.php?m=member&c=index&a=mini&forward='+encodeURIComponent(location.href)+'&siteid=1" allowTransparency="true"  width="500" height="24" frameborder="0" scrolling="no"></iframe>')</script></span></div>
+    </div>
+</div>
+<div class="header">
+	<div class="logo"><a href="http://www.020arts.cn/"><img src="http://my.phpcms:8080/statics/images/v9/logo.jpg" /></a></div>
+
+    <div class="search">
+    	<div class="tab" id="search">
+																<a href="javascript:;" onclick="setmodel(1, $(this));" style="outline:medium none;" hidefocus="true"  class="on" >新闻</a><span> | </span>										<a href="javascript:;" onclick="setmodel(3, $(this));" style="outline:medium none;" hidefocus="true" >图片</a><span> | </span>										<a href="javascript:;" onclick="setmodel(2, $(this));" style="outline:medium none;" hidefocus="true" >下载</a><span> | </span>										<a href="javascript:;" onclick="setmodel(52, $(this));" style="outline:medium none;" hidefocus="true" >专题</a>								</div>
+
+        <div class="bd">
+            <form action="http://my.phpcms:8080/index.php" method="get" target="_blank">
+				<input type="hidden" name="m" value="search"/>
+				<input type="hidden" name="c" value="index"/>
+				<input type="hidden" name="a" value="init"/>
+				<input type="hidden" name="typeid" value="1" id="typeid"/>
+				<input type="hidden" name="siteid" value="1" id="siteid"/>
+                <input type="text" class="text" name="q" id="q"/><input type="submit" value="搜 索" class="button" />
+            </form>
+        </div>
+    </div>
+
+    <div class="banner"><script language="javascript" src="http://my.phpcms:8080/index.php?m=poster&c=index&a=show_poster&id=1"></script></div>
+    <div class="bk3"></div>
+    <div class="nav-bar">
+    	<map>
+    	        	<ul class="nav-site">
+			<li><a href="http://www.020arts.cn"><span>首页</span></a></li>
+						<li class="line">|</li>
+			<li><a href="http://test.cn"><span>公司介绍 | About Us</span></a></li>
+						<li class="line">|</li>
+			<li><a href="http://www.020arts.cn/"><span>产品中心</span></a></li>
+						<li class="line">|</li>
+			<li><a href="http://www.020arts.cn/"><span>新闻中心</span></a></li>
+						<li class="line">|</li>
+			<li><a href="http://www.020arts.cn/html/"><span>服务支持 | Service</span></a></li>
+						<li class="line">|</li>
+			<li><a href="http://www.020arts.cn/"><span>人才招聘</span></a></li>
+						<li class="line">|</li>
+			<li><a href="http://www.020arts.cn/html/"><span>联系方式 | Contact</span></a></li>
+						<li class="line">|</li>
+			<li><a href="http://www.020arts.cn/"><span>图片</span></a></li>
+			            </ul>
+        		        </map>
+    </div> 
+	
+	</div>
+</div><!--main-->
+<div class="main">
+	<div class="col-left">
+    	<div class="news-hot">
+        	<div class="content">
+        	        	   
+                
+            </div>
+        </div>
+        <div class="slide">
+            <div class="FocusPic">
+                        	<div class="content" id="main-slide">
+                    <div class="changeDiv">  
+                                        </div>
+                </div>
+                        </div>
+            <div class="bk10"></div>
+        	<div class="box extend">
+            	<div class="col-left">争议</div>
+                <div class="col-auto">
+								</div>
+                <script language="javascript" src="http://my.phpcms:8080/caches/poster_js/10.js"></script>
+            </div>
+        </div>
+        <div class="bk10"></div>
+        <div class="box">
+        		<h5>图片新闻</h5>
+                      <ul class="content news-photo picbig">
+                         </ul>
+                    </div>
+        <div class="bk10"></div>
+                        <div class="box cat-area" style=" margin-right:10px">
+        		<h5 class="title-1">产品中心<a href="http://www.020arts.cn/" class="more">更多>></a></h5>
+             <div class="content">
+                                       	<p>
+             		<img src="http://www.020arts.cn/uploadfile/2019/0603/20190603012219184.jpg" width="90" height="60"/>
+                    <strong><a href="http://www.020arts.cn/2019/ping_0603/107.html" target="_blank" title="深圳乐云享科技有限公司">深圳乐云享科技...</a></strong><br />深圳乐云享科技有限公司从事广告业务，区块链的技术开发，经营电子...                </p>
+                                            
+                <div class="bk15 hr"></div>
+                
+                <ul class="list lh24 f14">
+                                	<li>·<a href="http://www.020arts.cn/2020/web_1105/132.html" target="_blank" title="柳州汇佳装饰">柳州汇佳装饰</a></li>
+                                	<li>·<a href="http://www.020arts.cn/2020/web_1105/131.html" target="_blank" title="双美教育">双美教育</a></li>
+                                	<li>·<a href="http://www.020arts.cn/2020/web_1105/130.html" target="_blank" title="壹心传媒">壹心传媒</a></li>
+                                	<li>·<a href="http://www.020arts.cn/2020/web_1105/129.html" target="_blank" title="广州齐翔广告">广州齐翔广告</a></li>
+                                	<li>·<a href="http://www.020arts.cn/2020/web_1025/128.html" target="_blank" title="顺德区大良总商会">顺德区大良总商会</a></li>
+                                </ul>
+                            </div>
+        </div>
+        		                <div class="box cat-area" >
+        		<h5 class="title-1">新闻中心<a href="http://www.020arts.cn/" class="more">更多>></a></h5>
+             <div class="content">
+                                       	<p>
+             		<img src="http://www.020arts.cn/uploadfile/2020/1105/20201105110540473.jpg" width="90" height="60"/>
+                    <strong><a href="http://www.020arts.cn/2020/industr_1105/41.html" target="_blank" title="橱窗设计－百货中庭集锦">橱窗设计－百货...</a></strong><br />金秋带来了疫情后的旺季圣诞节 元旦 春节都会接踵而来很多品牌都...                </p>
+                                            
+                <div class="bk15 hr"></div>
+                
+                <ul class="list lh24 f14">
+                                	<li>·<a href="http://www.020arts.cn/2020/industr_1105/41.html" target="_blank" title="橱窗设计－百货中庭集锦">橱窗设计－百货中庭集锦</a></li>
+                                	<li>·<a href="http://www.020arts.cn/2020/industr_1105/40.html" target="_blank" title="白酒如何玩转IP新势力！">白酒如何玩转IP新势力！</a></li>
+                                	<li>·<a href="http://www.020arts.cn/2020/industr_1105/39.html" target="_blank" title="一起向民国广告文案学习，没有热点追，但很赞！">一起向民国广告文案学习...</a></li>
+                                	<li>·<a href="http://www.020arts.cn/2020/industr_1104/38.html" target="_blank" title="海底捞申请“池底捞”等商标 曾状告“河底捞”商标侵权败">海底捞申请&ldquo;池底捞&rdquo;等...</a></li>
+                                	<li>·<a href="http://www.020arts.cn/2020/industr_0304/36.html" target="_blank" title="LOGO进入扁平化时代,宝马全新升级">LOGO进入扁平化时代,宝马...</a></li>
+                                </ul>
+                            </div>
+        </div>
+        <div class="bk10"></div>		                <div class="box cat-area" style=" margin-right:10px">
+        		<h5 class="title-1">人才招聘<a href="http://www.020arts.cn/" class="more">更多>></a></h5>
+             <div class="content">
+                                                        
+                <div class="bk15 hr"></div>
+                
+                <ul class="list lh24 f14">
+                                </ul>
+                            </div>
+        </div>
+        		                <div class="box cat-area" >
+        		<h5 class="title-1">图片<a href="http://www.020arts.cn/" class="more">更多>></a></h5>
+             <div class="content">
+                                       	<p>
+             		<img src="http://www.020arts.com/uploadfile/2016/0529/20160529112956746.jpg" width="90" height="60"/>
+                    <strong><a href="http://www.020arts.cn/2016/tutree_0529/21.html" target="_blank" title="测图">测图</a></strong><br />我们党历来高度重视老龄工作。党的十八大和十八届三中、四中、五中...                </p>
+                                            
+                <div class="bk15 hr"></div>
+                
+                <ul class="list lh24 f14">
+                                	<li>·<a href="http://www.020arts.cn/2016/tutree_0529/21.html" target="_blank" title="测图">测图</a></li>
+                                	<li>·<a href="http://www.020arts.cn/2016/towtu_0528/20.html" target="_blank" title="图片测试2">图片测试2</a></li>
+                                	<li>·<a href="http://www.020arts.cn/2016/towtu_0528/19.html" target="_blank" title="图片测试">图片测试</a></li>
+                                </ul>
+                            </div>
+        </div>
+        <div class="bk10"></div>		    </div>
+    <div class="col-auto">
+    	<div class="box">
+        	 <h5 class="title-2">公告<a href="" class="more">&nbsp;</a></h5>
+             <div class="content">
+                                <ul class="list lh24 f14">
+                                   </ul>
+                            </div>
+        </div>
+        <div class="bk10"></div>
+        <div class="box">
+        	<h5 class="title-2">专题<a href="http://my.phpcms:8080/index.php?m=special&c=index&a=special&siteid=1" class="more">更多>></a></h5>
+            <div class="content special">
+                                                </div>
+        </div>
+        <div class="bk10"></div>
+        <div class="box">
+            <h5 class="title-2"><span class="rt fn f12 tab SwapTab"><span class="fb">热点</span> | <span >评论</span> | <span>关注</span></span>排行</h5>
+            <div class="tab-content">
+            <ul class="content digg">
+										            </ul>
+            <ul class="content digg hidden">
+										            </ul>
+            <ul class="content digg hidden">
+										            </ul>
+            </div>
+        </div><div class="bk10"></div>
+        <div class="box">
+            <h5 class="title-2">调查问卷<a href="http://my.phpcms:8080/index.php?m=vote&c=index&siteid=1" class="more">更多>></a></h5>
+ 
+<script language="javascript" src="http://my.phpcms:8080/index.php?m=vote&c=index&a=show&action=js&subjectid=1&type=3"></script>
+        </div>
+    </div>
+    <div class="bk10"></div>
+	
+	<div class="box blogroll ylink">
+    	<h5><a href="http://my.phpcms:8080/index.php?m=link&siteid=1" hidefocus="true" class="rt">更多>></a>友情链接<a href="http://my.phpcms:8080/index.php?m=link&c=index&a=register&siteid=1" class="red">申请链接</a></h5>
+        <div class="bk10"></div>
+	<ul class="colli imgul">
+                        <li><a href="http://www.phpcms.cn" title="PHPCMS" target="_blank"><img src="http://www.phpcms.cn/images/logo_88_31.gif" width="88" height="31" /></a></li>
+                <li><a href="http://www.sdo.com" title="盛大在线" target="_blank"><img src="http://www.snda.com/cn/logo/comp_logo_sdo.gif" width="88" height="31" /></a></li>
+                    </ul>
+          <div class="bk10"></div>
+	<div class="linka">
+		 	</div>
+	</div>
+</div>
+<script type="text/javascript"> 
+$(function(){
+	new slide("#main-slide","cur",310,260,1);//焦点图
+	new SwapTab(".SwapTab","span",".tab-content","ul","fb");//排行TAB
+})
+</script>
+<div class="footer">
+<p class="info">
+<a href="http://www.020arts.cn/html/about/aboutus/" target="_blank">关于我们</a> |  
+<a href="http://www.020arts.cn/html/about/contactus/" target="_blank">联系方式</a> |  
+<a href="http://www.020arts.cn/index.php?m=content&c=index&a=lists&catid=4" target="_blank">版权声明</a> |  
+<a href="http://www.020arts.cn/html/about/hr/" target="_blank">招聘信息</a> |  
+<a href="http://my.phpcms:8080/index.php?m=link" target="_blank">友情链接</a>
+<br />
+Powered by <strong><a href="http://www.phpcms.cn" target="_blank">PHPCMS</a></strong> <em>V9.6.3</em> &copy; 2017 <img src="http://my.phpcms:8080/statics/images/copyright.gif"/></p>
+</div>
+<script type="text/javascript">
+$(function(){
+	$(".picbig").each(function(i){
+		var cur = $(this).find('.img-wrap').eq(0);
+		var w = cur.width();
+		var h = cur.height();
+	   $(this).find('.img-wrap img').LoadImage(true, w, h,'http://my.phpcms:8080/statics/images/msg_img/loading.gif');
+	});
+})
+</script>
+</body>
+</html>
